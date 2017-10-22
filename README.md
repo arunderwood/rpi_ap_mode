@@ -3,6 +3,14 @@ Files to make a Raspberry Pi act like an Access Point
 
 Borrowed from [elinux.org](https://elinux.org/RPI-Wireless-Hotspot)
 
+### TODO
+
+* [Force interface names to be predicatable](https://raspberrypi.stackexchange.com/questions/43560/raspberry-pi-3-eth0-wrongfully-named-enx)
+
+* Configure second WLAN adapeter to connect to nearby WLAN networks
+
+* Enabled conditional IP forwarding from AP if second WLAN interface has a path to the internet
+
 ## Install packages
 
 ```
